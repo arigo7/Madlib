@@ -31,8 +31,8 @@ place = (gets.chomp).capitalize
 Puts "Please enter a verb:" 
 verb_2 = gets.chomp
 
-Puts "Number:"
-Number1 = gets.chomp
+puts "What is your favorite number: "
+favorite_number = (gets.chomp).to_i
 
 adjective: dry
 
@@ -44,9 +44,9 @@ verb ending in -ed: ended
 
 noun: jellyfish"
 
-Dear #{your_name},
+"Dear #{your_name},"\n
 
-I am writing you this message in PLanguage because my Spanish 
+"I am writing you this message in "PLanguage because my Spanish 
 is #{Adjective1} so I wanted to show off a little. I cannot tell you how it happened 
 but I have  #{Adverb1} decided to get enough courage and  #{Verb1} you so you would know… So here is my  confession:
 
