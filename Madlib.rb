@@ -1,29 +1,35 @@
-Puts "Welcome to my MadLib program :). Please enter in some information below:"
+puts "Welcome to my MadLib program :)" \n
+puts "Please enter in some information below:" \n
 
-Puts "Your least favorite programming language:"
-PLanguage = (gets.chomp).capitalize
+puts "What is your least favorite programming language:"
+programming_language = (gets.chomp).capitalize
+puts programming_language
 
-Puts "Your name:"
+puts "What is your name:"
 your_name = (gets.chomp).capitalize
+p your_name
 
-Puts "Your crush's name:"  
-TheirName = (gets.chomp).capitalize
+puts "Your crush's name:"  
+crush-name = (gets.chomp).capitalize
 
-Puts "Adjective:" 
-Adjective1 = (gets.chomp).underscore    
+puts "Adjective:" 
+adjective_1 = (gets.chomp).underscore    
 
-Puts "Adverb:" 
-Adverb1 = (gets.chomp).underscore 
+puts "Adverb:" 
+adverb_1 = (gets.chomp).underscore 
 
-Puts "Verb:" 
-Verb1 = (gets.chomp).underscore 
+puts "Verb:" 
+verb_1 = (gets.chomp).underscore 
 
-Puts "Time and place:"
-Time = (gets.chomp)
-Place = (gets.chomp).capitalize
+puts "Plese enter a time and a place:"\n
+puts "Time: "
+time = (gets.chomp).to_i
 
-Puts "Verb:" 
-Verb2 = gets.chomp
+puts "Place: "
+place = (gets.chomp).capitalize
+
+Puts "Please enter a verb:" 
+verb_2 = gets.chomp
 
 Puts "Number:"
 Number1 = gets.chomp
