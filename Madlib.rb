@@ -4,7 +4,7 @@ Puts "Your least favorite programming language:"
 PLanguage = (gets.chomp).capitalize
 
 Puts "Your name:"
-YourName = (gets.chomp).capitalize
+your_name = (gets.chomp).capitalize
 
 Puts "Your crush's name:"  
 TheirName = (gets.chomp).capitalize
@@ -38,7 +38,7 @@ verb ending in -ed: ended
 
 noun: jellyfish"
 
-Dear #{YourName},
+Dear #{your_name},
 
 I am writing you this message in PLanguage because my Spanish 
 is #{Adjective1} so I wanted to show off a little. I cannot tell you how it happened 
